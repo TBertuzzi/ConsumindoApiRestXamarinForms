@@ -25,7 +25,7 @@ namespace ConsumindoApiRestXamarinForms.Services.Flurl
                 {
 
                     Pokemon pokemon = 
-                        await Constantes.ApiBaseUrl.GetJsonAsync<Pokemon>();
+                        await $"{Constantes.ApiBaseUrl}pokemon/{i}".GetJsonAsync<Pokemon>();
 
                     pokemons.Add(pokemon);
                 }

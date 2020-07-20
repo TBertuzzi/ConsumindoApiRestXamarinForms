@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:c="clr-namespace:ConsumindoApiRestXamarinForms.Converters"
+             Padding="0,60,0,0"
              mc:Ignorable="d"
              x:Class="ConsumindoApiRestXamarinForms.MainPage">
 

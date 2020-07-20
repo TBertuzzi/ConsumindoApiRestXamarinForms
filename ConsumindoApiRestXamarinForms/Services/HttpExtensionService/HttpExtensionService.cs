@@ -23,7 +23,7 @@ namespace ConsumindoApiRestXamarinForms.Services.HttpExtensionService
                 for (int i = 1; i < 20; i++)
                 {
                     var response = await httpClient.
-                        GetAsync<Pokemon>($"{Constantes.ApiBaseUrl}{i}");
+                        GetAsync<Pokemon>($"{Constantes.ApiBaseUrl}/pokemon/{i}");
 
                     if (response.StatusCode == System.Net.HttpStatusCode.OK)
                     {
